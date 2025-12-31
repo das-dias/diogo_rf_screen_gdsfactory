@@ -1,7 +1,7 @@
 [project]
 name = "diogo-rf-screen-gdsfactory"
 version = "0.1.0"
-description = "Add your description here"
+description = "Code and generated layouts resulting from RF Engineer Screening Process (GDSFACTORY)"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
