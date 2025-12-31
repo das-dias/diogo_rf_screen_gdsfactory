@@ -452,7 +452,7 @@ wheels = [
 [[package]]
 name = "diogo-rf-screen-gdsfactory"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "gdsfactory" },
     { name = "gplugins", extra = ["schematic", "tidy3d", "vlsir"] },

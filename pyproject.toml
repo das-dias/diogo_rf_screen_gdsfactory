@@ -3,6 +3,9 @@ name = "diogo-rf-screen-gdsfactory"
 version = "0.1.0"
 description = "Code and generated layouts resulting from RF Engineer Screening Process (GDSFACTORY)"
 readme = "README.md"
+authors = [
+    { name = "das-dias", email = "das.dias6@gmail.com" }
+]
 requires-python = ">=3.12"
 dependencies = [
     "gdsfactory>=9.24.0",
@@ -11,6 +14,10 @@ dependencies = [
     "klayout>=0.30.5",
     "numpy>=2.2.0",
 ]
+
+[build-system]
+requires = ["uv_build>=0.9.5,<0.10.0"]
+build-backend = "uv_build"
 
 [tool.uv.sources]
 ihp-gdsfactory = { git = "https://github.com/das-dias/IHP.git" }
