@@ -1,0 +1,16 @@
+[project]
+name = "diogo-rf-screen-gdsfactory"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gdsfactory>=9.24.0",
+    "gplugins[schematic,tidy3d,vlsir]>=2.0.0",
+    "ihp-gdsfactory",
+    "klayout>=0.30.5",
+    "numpy>=2.2.0",
+]
+
+[tool.uv.sources]
+ihp-gdsfactory = { git = "https://github.com/das-dias/IHP.git" }

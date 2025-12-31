@@ -1,0 +1,5 @@
+numpy
+klayout
+gdsfactory
+gplugins[schematic,tidy3d,vlsir]
+git+https://github.com/das-dias/IHP.git
